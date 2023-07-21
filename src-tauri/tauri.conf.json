@@ -63,6 +63,12 @@
         "width": 800,
         "height": 600
       }
-    ]
+    ],
+    "updater": {
+      "active": true,
+      "dialog": true,
+      "endpoints": ["https://releases.myapp.com/{{target}}/{{current_version}}"],
+      "pubkey": ""
+    }
   }
 }
