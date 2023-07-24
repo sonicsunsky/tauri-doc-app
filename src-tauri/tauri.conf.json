@@ -68,9 +68,9 @@
       "active": true,
       "dialog": true,
       "endpoints": [
-        "https://lencx.github.io/OhMyBox/install.json"
+        "https://sonicsunsky.github.io/tauri-doc-app/install.json"
       ],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEU5MEIwREEzNDlBNzdDN0MKUldSOGZLZEpvdzBMNmFOZ2cyY2NPeTdwK2hsV3gwcWxoZHdUWXRZWFBpQTh1dWhqWXhBdkl0cW8K"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQxNDdCOTNGMkU2NzlDQgpSV1RMZWVieWszc1VEVHBhbnZaTlcvb2kzWkllWVNidU11a1NrcjRCeWpZVkRsY2RKM2IydGJLSQo="
     }
   }
 }

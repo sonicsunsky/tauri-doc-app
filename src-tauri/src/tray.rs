@@ -34,8 +34,7 @@ pub fn menu() -> SystemTray {
 pub fn handler(app: &AppHandle, event: SystemTrayEvent) {
     match event {
         SystemTrayEvent::MenuItemClick { id, .. } => {
-            let item_handle = app.tray_handle().get_item(&id);
-
+            // let item_handle = app.tray_handle().get_item(&id);
             match id.as_str() {
                 "quit" => {
                     std::process::exit(0);
