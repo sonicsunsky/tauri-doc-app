@@ -1,8 +1,9 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+#![allow(unused_imports)]
+#![allow(unused_variables)]
 
 use std::sync::Mutex;
-
 use tauri::Manager;
 
 mod db;

@@ -1,9 +1,10 @@
+#![allow(unused_imports)]
+
+use tauri::Manager;
 use tauri::{
     AppHandle, CustomMenuItem, SystemTray, SystemTrayEvent, SystemTrayMenu, SystemTrayMenuItem,
     SystemTraySubmenu,
 };
-
-use tauri::Manager;
 
 // 托盘菜单
 pub fn menu() -> SystemTray {
